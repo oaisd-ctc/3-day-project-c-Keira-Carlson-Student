@@ -5,3 +5,8 @@ body {
 p {
     font-family: "Papyrus";
 }
+
+Button:hover
+{
+    cursor: pointer;
+}

@@ -18,6 +18,15 @@
         function onClick() {
         clicks += 1;
         document.getElementById("clicks").innerHTML = clicks;};
+
+        const audio = new audio("https://www.bing.com/videos/riverview/relatedvideo?q=hamburger+audio&mid=ABBB69A25F5FB903C922ABBB69A25F5FB903C922&FORM=VIRE");
+        const buttons = document.querySelectorAll("button");
+
+        buttons.forEach(button =>{
+            button.addEventListener("click", () => {
+                audio.play();
+            });
+        });
     </script>
   
 </html>
